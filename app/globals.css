@@ -920,3 +920,82 @@ footer.site {
     margin-top: 40px;
   }
 }
+
+/* ---------- 진료과목 상세 페이지 ---------- */
+.dept-detail {
+  padding-top: 60px;
+}
+.dept-grid {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 60px;
+  align-items: start;
+}
+.dept-doctor-card {
+  display: block;
+  border: 1px solid var(--line);
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+.dept-doctor-photo {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 18px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.dept-doctor-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dept-doctor-card .role {
+  font-size: 12.5px;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.dept-doctor-card h3 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+.dept-treatments h3 {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+.dept-note {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+.dept-treatments ul {
+  margin-bottom: 30px;
+}
+.dept-treatments li {
+  font-size: 15px;
+  color: var(--ink);
+  padding: 14px 0 14px 18px;
+  border-top: 1px solid var(--line);
+  position: relative;
+}
+.dept-treatments li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.dept-treatments li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 5px;
+  height: 5px;
+  background: var(--gold);
+}
+
+@media (max-width: 960px) {
+  .dept-grid {
+    grid-template-columns: 1fr;
+  }
+}

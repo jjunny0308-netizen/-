@@ -5,29 +5,17 @@ export default function Location() {
         <div className="location-info">
           <h2>오시는 길</h2>
           <ul className="loc-list">
-            <li><span className="k">상호</span><span>강임강정치과의원</span></li>
-            <li><span className="k">주소</span><span>[OO시 OO구 OO로 00, 0층]</span></li>
-            <li><span className="k">지하철</span><span>[0호선 OO역 0번출구, 00m이내]</span></li>
+            <li><span className="k">상호</span><span>강임강정서울치과</span></li>
+            <li><span className="k">주소</span><span>서울 송파구 올림픽로 119 파인애플상가 5층 523호, 524호</span></li>
+            <li><span className="k">지하철</span><span>2호선 잠실새내역 6번출구에서 199m</span></li>
           </ul>
           <p className="naver-note">
-            네이버 지도에서 <strong>&apos;강임강정치과&apos;</strong>를 검색하시면 정확한 위치를
-            확인하실 수 있습니다.
+            잠실새내역 5번 출구로 나오시면 보이는 파인애플상가 5층입니다.
+            <br />
+            주차를 원하시는 고객님들께서는 상가 주차장을 무료로 이용하시기 바랍니다.
           </p>
         </div>
-        <div className="map-schematic">
-          <div className="map-grid">
-            <span className="landmark" style={{ gridArea: "a" }}>[인근 아파트 A]</span>
-            <span className="landmark" style={{ gridArea: "b" }}>[인근 지하철역]</span>
-            <span className="landmark" style={{ gridArea: "c" }}>[인근 아파트 B]</span>
-            <span className="landmark" style={{ gridArea: "d" }}>[인근 상가]</span>
-            <div className="map-pin" style={{ gridArea: "pin" }}>
-              <span className="pin-dot"></span>
-              강임강정치과의원
-            </div>
-            <span className="landmark" style={{ gridArea: "e" }}>[인근 편의점]</span>
-            <span className="landmark" style={{ gridArea: "f" }}>[인근 학교/공원]</span>
-          </div>
-        </div>
+        <div className="map-box">지도 영역 (네이버/카카오 지도 API 연동 예정)</div>
       </div>
 
       <div className="hours-card wrap">

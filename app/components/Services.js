@@ -1,30 +1,22 @@
+import { departments } from "../data/departments";
+
 export default function Services() {
   return (
     <section id="services">
       <div className="wrap">
         <div className="section-heading">
-          <h2>[진료과목 미리보기 제목]</h2>
-          <p>[진료과목 부제 한 문장]</p>
+          <h2>전문 분야별 진료과목</h2>
+          <p>각 분야 전문의가 담당하는 진료과목을 확인해보세요</p>
         </div>
         <div className="service-cards">
-          <div className="service-card">
-            <div className="tag">[분류 A]</div>
-            <h3>[진료과목 A 이름]</h3>
-            <p>[진료과목 A 소개 문장]</p>
-            <a href="#" className="link">자세히 보기</a>
-          </div>
-          <div className="service-card">
-            <div className="tag">[분류 B]</div>
-            <h3>[진료과목 B 이름]</h3>
-            <p>[진료과목 B 소개 문장]</p>
-            <a href="#" className="link">자세히 보기</a>
-          </div>
-          <div className="service-card">
-            <div className="tag">[분류 C]</div>
-            <h3>[진료과목 C 이름]</h3>
-            <p>[진료과목 C 소개 문장]</p>
-            <a href="#" className="link">자세히 보기</a>
-          </div>
+          {departments.map((d, i) => (
+            <div className="service-card" key={d.slug}>
+              <div className="tag">{String(i + 1).padStart(2, "0")}</div>
+              <h3>{d.name}</h3>
+              <p>{d.intro}</p>
+              <a href={`/departments/${d.slug}`} className="link">자세히 보기</a>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -26,12 +26,12 @@ export default function Header() {
 
       <nav className="main">
         <ul>
-          <li><a href="#about">병원소개</a></li>
-          <li><a href="#values">의료진소개</a></li>
-          <li><a href="#services">교정과</a></li>
-          <li><a href="#services">보철·임플란트</a></li>
-          <li><a href="#services">치주과</a></li>
-          <li><a href="#location">오시는길</a></li>
+          <li><a href="/#about">병원소개</a></li>
+          <li><a href="/#values">의료진소개</a></li>
+          <li><a href="/departments/orthodontics">교정과</a></li>
+          <li><a href="/departments/prosthodontics">보철·임플란트</a></li>
+          <li><a href="/departments/periodontics">치주과</a></li>
+          <li><a href="/#location">오시는길</a></li>
         </ul>
       </nav>
     </>
