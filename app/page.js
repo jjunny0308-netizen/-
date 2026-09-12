@@ -13,8 +13,8 @@ export default function Home() {
       <Header />
       <QuickRail />
       <Hero />
-      <Values />
       <About />
+      <Values />
       <Services />
       <Location />
       <Footer />

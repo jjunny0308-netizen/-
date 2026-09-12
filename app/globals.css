@@ -591,10 +591,10 @@ footer.site {
 
 @media (max-width: 960px) {
   .topbar-inner {
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr auto 1fr;
     height: 64px;
     position: relative;
-    gap: 10px;
+    gap: 8px;
   }
   .tel {
     font-size: 11px;
