@@ -357,9 +357,9 @@ nav.main a:hover {
 .value-photo {
   width: 230px;
   height: 230px;
-  border-radius: 50%;
+  border-radius: 14px;
   margin: 0 auto 26px;
-  border: 6px solid var(--gold-soft);
+  border: 1px solid var(--line);
   background: var(--white);
   display: flex;
   align-items: center;
@@ -628,12 +628,12 @@ footer.site {
   gap: 10px;
 }
 
-/* ---------- 의료진 (원형 사진) ---------- */
+/* ---------- 의료진 (사진) ---------- */
 .doctor-photo-circle {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 12px;
 }
 .value-item .role {
   font-size: 12.5px;
@@ -729,10 +729,10 @@ footer.site {
 }
 .doctor-detail-photo img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 16px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 6px solid var(--gold-soft);
+  border: 1px solid var(--line);
 }
 .doctor-detail-info .role {
   font-size: 13px;
