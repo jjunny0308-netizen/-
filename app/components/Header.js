@@ -1,3 +1,5 @@
+import MobileNav from "./MobileNav";
+
 export default function Header() {
   return (
     <>
@@ -15,11 +17,7 @@ export default function Header() {
             <span>강임강정치과의원</span>
           </div>
           <div className="top-actions">
-            <span className="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
+            <MobileNav />
           </div>
         </div>
       </div>

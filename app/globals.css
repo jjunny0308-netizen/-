@@ -176,17 +176,51 @@ section {
   height: 16px;
 }
 .hamburger {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 5px;
   width: 24px;
   margin-left: 6px;
   cursor: pointer;
+  position: relative;
+  z-index: 110;
 }
 .hamburger span {
   height: 2px;
   background: var(--ink);
   display: block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+}
+.mobile-menu ul {
+  padding: 8px 28px 16px;
+}
+.mobile-menu li {
+  border-top: 1px solid var(--line);
+}
+.mobile-menu a {
+  display: block;
+  padding: 16px 4px;
+  font-size: 15.5px;
+  font-weight: 500;
 }
 
 /* ---------- 메인 내비 ---------- */
@@ -559,12 +593,16 @@ footer.site {
   .topbar-inner {
     grid-template-columns: auto 1fr auto;
     height: 70px;
+    position: relative;
   }
   .tel strong {
     font-size: 16px;
   }
-  nav.main ul {
+  nav.main {
     display: none;
+  }
+  .hamburger {
+    display: flex;
   }
   .quick-rail {
     width: 64px;
