@@ -592,11 +592,26 @@ footer.site {
 @media (max-width: 960px) {
   .topbar-inner {
     grid-template-columns: auto 1fr auto;
-    height: 70px;
+    height: 64px;
     position: relative;
+    gap: 10px;
+  }
+  .tel {
+    font-size: 11px;
   }
   .tel strong {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .logo-mark {
+    gap: 6px;
+  }
+  .logo-mark svg {
+    width: 22px;
+    height: 22px;
+  }
+  .logo-mark span {
+    font-size: 15px;
+    white-space: nowrap;
   }
   nav.main {
     display: none;
@@ -605,7 +620,7 @@ footer.site {
     display: flex;
   }
   .quick-rail {
-    width: 64px;
+    width: 56px;
     top: auto;
     bottom: 0;
   }
@@ -616,8 +631,29 @@ footer.site {
   .quick-rail a small {
     display: none;
   }
+  .hero {
+    min-height: 440px;
+    padding-bottom: 40px;
+  }
+  .hero-eyebrow {
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
   .hero h1 {
-    font-size: 34px;
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+  .hero-divider {
+    margin: 16px 0;
+  }
+  .hero p.sub {
+    font-size: 13.5px;
+    margin-bottom: 22px;
+  }
+  .hero .btn {
+    padding: 11px 22px;
+    font-size: 13px;
   }
   .values,
   .service-cards {
