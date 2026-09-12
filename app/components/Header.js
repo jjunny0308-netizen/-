@@ -5,14 +5,14 @@ export default function Header() {
         <div className="wrap topbar-inner">
           <div className="tel">
             대표전화
-            <strong>[000-0000-0000]</strong>
+            <strong>02-413-7527</strong>
           </div>
           <div className="logo-mark">
             <svg viewBox="0 0 40 40" fill="none">
               <rect x="8" y="8" width="24" height="24" stroke="var(--ink)" strokeWidth="1.6" />
               <path d="M20 14v12M14 20h12" stroke="var(--ink)" strokeWidth="1.6" />
             </svg>
-            <span>OO치과의원</span>
+            <span>강임강정치과의원</span>
           </div>
           <div className="top-actions">
             <span className="login">로그인</span>
@@ -42,12 +42,12 @@ export default function Header() {
 
       <nav className="main">
         <ul>
-          <li><a href="#about">[병원 소개]</a></li>
-          <li><a href="#values">[특별함]</a></li>
-          <li><a href="#services">[일반치료]</a></li>
-          <li><a href="#services">[심미치료]</a></li>
-          <li><a href="#services">[임플란트]</a></li>
-          <li><a href="#location">[오시는길]</a></li>
+          <li><a href="#about">병원소개</a></li>
+          <li><a href="#values">의료진소개</a></li>
+          <li><a href="#services">교정과</a></li>
+          <li><a href="#services">보철·임플란트</a></li>
+          <li><a href="#services">치주과</a></li>
+          <li><a href="#location">오시는길</a></li>
         </ul>
       </nav>
     </>

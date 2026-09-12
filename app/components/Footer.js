@@ -12,12 +12,12 @@ export default function Footer() {
             <rect x="8" y="8" width="24" height="24" stroke="var(--white)" strokeWidth="1.4" />
             <path d="M20 14v12M14 20h12" stroke="var(--white)" strokeWidth="1.4" />
           </svg>
-          OO치과의원
+          강임강정치과의원
         </div>
         <div className="footer-detail">
-          대표자 : [원장명] &nbsp;주소 : [OO시 OO구 OO로 00]
+          대표원장 : 강태현, 임웅택, 정현희 &nbsp;대표전화 : 02-413-7527
           <br />
-          사업자등록번호 : [000-00-00000]
+          주소 : [OO시 OO구 OO로 00] &nbsp;사업자등록번호 : [000-00-00000]
         </div>
       </div>
     </footer>

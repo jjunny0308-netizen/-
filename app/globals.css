@@ -566,3 +566,89 @@ footer.site {
     text-align: left;
   }
 }
+
+/* ---------- 병원 소개 텍스트 ---------- */
+.about-intro {
+  max-width: 760px;
+  margin: 0 auto 56px;
+}
+.about-intro p {
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+.about-intro p.emphasis {
+  color: var(--ink);
+  font-weight: 500;
+}
+.split-photo {
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ---------- 의료진 (원형 사진) ---------- */
+.doctor-photo-circle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.value-item .role {
+  font-size: 12.5px;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.value-item .credentials {
+  list-style: none;
+  margin-top: 10px;
+  text-align: left;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.value-item .credentials li {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  padding-left: 12px;
+  position: relative;
+  margin-bottom: 4px;
+}
+.value-item .credentials li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 4px;
+  height: 4px;
+  background: var(--gold);
+}
+
+/* ---------- 진료시간 표 ---------- */
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.hours-table td {
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+}
+.hours-table tr:last-child td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.hours-table td:first-child {
+  width: 46px;
+  font-weight: 700;
+  color: var(--gold-soft);
+}
+.hours-table td:last-child {
+  text-align: right;
+  color: rgba(255, 255, 255, 0.85);
+}
+.hours-table .break {
+  display: block;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
