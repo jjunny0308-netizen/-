@@ -1,7 +1,10 @@
+import HeroSlider from "./HeroSlider";
+
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="wrap">
+      <HeroSlider />
+      <div className="wrap hero-content">
         <div className="hero-eyebrow">강임강정 서울치과 · 교정과 · 치주과 · 보철/임플란트</div>
         <h1>
           전문화된 의료진에 의한<br />

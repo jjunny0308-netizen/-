@@ -1,0 +1,67 @@
+export const doctors = [
+  {
+    slug: "kang-taehyun",
+    photo: "/doctors/kang-taehyun.jpg",
+    role: "보철 · 임플란트 대표원장",
+    name: "강태현 원장",
+    credentials: [
+      "서울대학교 치과대학 졸업",
+      "2016 세계 3대 인명사전 '마르퀴즈 후즈 후(Marquis Who's Who)' 등재",
+      "SKCD(Society of Korean Clinical Dentist) 창립멤버",
+      "ITI / Harvard School of Dental Medicine Implant Course",
+      "New York University Implant Two Years Course by Continuing Course",
+      "Boston Association of Osseointergration",
+      "대한 임플란트학회 정회원",
+      "대한 보철학회 정회원",
+      "대한 구강악안면 임플란트학회 정회원",
+      "대한 턱관절 기능교합학회 정회원",
+      "대한 심미치과학회 정회원",
+      "보철 인정의 · 교합 인정의",
+      "Society of Japan Clinical Dentist (SJCD) 정회원",
+    ],
+  },
+  {
+    slug: "lim-woongtaek",
+    photo: "/doctors/lim-woongtaek.jpg",
+    role: "교정과 원장",
+    name: "임웅택 원장",
+    credentials: [
+      "서울대학교 치과대학 졸업",
+      "Director of Orthodontic Seminar Group, LPO",
+      "서울대학교 협력 한국전력 부속 한일병원 재직",
+      "Central 교정 연구회 지도의",
+      "대한 교정학회 정회원",
+      "대한 설측교정학회(KSLO) 정회원",
+      "한국 설측교정학회(KLOA) 정회원",
+      "사단법인 한국 치과 교정연구회(KORI) 정회원",
+      "대한 턱관절 교합학회 정회원",
+      "교합 인정의",
+      "Society of Japan Clinical Dentist (SJCD) 정회원",
+      "現 Society of Korean Clinical Dentist (SKCD) 학술이사",
+      "現 E-orthodontic Society 학술이사",
+    ],
+  },
+  {
+    slug: "jung-hyunhee",
+    photo: "/doctors/jung-hyunhee.jpg",
+    role: "치주과 원장",
+    name: "정현희 원장",
+    credentials: [
+      "서울대학교 치과대학 졸업",
+      "SKCD(Society of Korean Clinical Dentist) 창립멤버",
+      "University of Pennsylvania Department of Endodontics Microendodontic Course",
+      "Korea Bleaching Society 'The safe and effective Bleaching' 과정",
+      "서울아산병원 치주과",
+      "前 서울아산병원 건강증진센터 치과 과장",
+      "대한 치주과학회 정회원",
+      "치주 인정의",
+      "대한 임플란트학회 정회원",
+      "대한 구강악안면 임플란트학회 정회원",
+      "Society of Japan Clinical Dentist (SJCD) 정회원",
+    ],
+  },
+];
+
+export function getDoctor(slug) {
+  return doctors.find((d) => d.slug === slug);
+}

@@ -15,22 +15,6 @@ export default function Header() {
             <span>강임강정치과의원</span>
           </div>
           <div className="top-actions">
-            <span className="login">로그인</span>
-            <span className="icon-circle">
-              <svg viewBox="0 0 24 24" fill="none" stroke="var(--ink)" strokeWidth="1.5">
-                <path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5A8.5 8.5 0 1 1 21 11.5Z" />
-              </svg>
-            </span>
-            <span className="icon-circle">
-              <svg viewBox="0 0 24 24" fill="none" stroke="var(--ink)" strokeWidth="1.5">
-                <rect x="4" y="4" width="16" height="16" rx="3" />
-              </svg>
-            </span>
-            <span className="icon-circle">
-              <svg viewBox="0 0 24 24" fill="none" stroke="var(--ink)" strokeWidth="1.5">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-              </svg>
-            </span>
             <span className="hamburger">
               <span></span>
               <span></span>

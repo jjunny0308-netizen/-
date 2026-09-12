@@ -35,47 +35,33 @@ export default function About() {
             </svg>
             <span>[병원 내부/외관 사진 삽입 예정]</span>
           </div>
-          <div className="quad">
-            <div className="quad-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M4 4h16v12H8l-4 4Z" />
-              </svg>
-              <p>
-                [병원 소식/블로그
-                <br />
-                안내 문구]
-              </p>
-            </div>
-            <div className="quad-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <rect x="3" y="4" width="18" height="18" rx="2" />
-                <path d="M3 9h18M8 3v4M16 3v4" />
-              </svg>
-              <p>
-                [온라인 예약
-                <br />
-                안내 문구]
-              </p>
-            </div>
-            <div className="quad-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-              </svg>
-              <p>
-                [실시간 채팅상담
-                <br />
-                안내 문구]
-              </p>
-            </div>
+          <div className="quad quad-info">
             <div className="quad-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M12 2l2.4 6.8L21 9l-5 4.5L17.5 21 12 17l-5.5 4L8 13.5 3 9l6.6-.2Z" />
               </svg>
-              <p>
-                [진료 후기/평점
-                <br />
-                안내 문구]
-              </p>
+              <p>25년간 이어온<br />세 원장의 협진 시스템</p>
+            </div>
+            <div className="quad-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <circle cx="12" cy="8" r="4" />
+                <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
+              </svg>
+              <p>분야별 전문의의<br />독립적인 전문성</p>
+            </div>
+            <div className="quad-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 3" />
+              </svg>
+              <p>기능·건강·심미의<br />조화를 고려한 진단</p>
+            </div>
+            <div className="quad-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M4 4h16v16H4z" />
+                <path d="M4 9h16" />
+              </svg>
+              <p>교합·턱관절까지 보는<br />전체적인 진료 철학</p>
             </div>
           </div>
         </div>
