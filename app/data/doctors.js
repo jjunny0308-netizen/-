@@ -2,8 +2,20 @@ export const doctors = [
   {
     slug: "kang-taehyun",
     photo: "/doctors/kang-taehyun.jpg",
-    role: "보철 · 임플란트 대표원장",
+    role: "보철 · 임플란트",
     name: "강태현 원장",
+    tagline: "정교한 치료와 구강 전체의 균형을 중요하게 생각합니다",
+    bio: [
+      "정교한 작업에 대한 관심으로 보철 분야를 선택했습니다. 보철물과 치아가 만나는 경계가 잘 맞는지, 위아래 치아가 어떻게 맞물리는지를 중요하게 살핍니다.",
+      "치료계획을 세울 때는 입안 전체의 균형과 건강, 치료 후 오래 유지할 수 있는 가능성을 함께 고려합니다. 자연치아를 보존할 수 있는지 먼저 검토하고, 복합적인 치료가 필요한 경우 다른 분야 원장과 의견을 나눕니다.",
+    ],
+    treatments: [
+      "임플란트 보철",
+      "크라운과 브릿지",
+      "오래된 보철물의 상태 평가",
+      "복합적인 보철치료 계획",
+    ],
+    relatedDepartments: ["implant", "prosthodontics"],
     credentials: [
       "서울대학교 치과대학 졸업",
       "2016 세계 3대 인명사전 '마르퀴즈 후즈 후(Marquis Who's Who)' 등재",
@@ -23,8 +35,20 @@ export const doctors = [
   {
     slug: "lim-woongtaek",
     photo: "/doctors/lim-woongtaek.jpg",
-    role: "교정과 원장",
+    role: "교정",
     name: "임웅택 원장",
+    tagline: "치아의 배열과 맞물림을 함께 살핍니다",
+    bio: [
+      "치아가 움직이는 원리와 교정치료가 만드는 심미적 변화에 매력을 느껴 교정 분야를 선택했습니다. 진료에서는 환자에게 도움이 되는 치료와 이해하기 쉬운 설명을 중요하게 생각합니다.",
+      "정밀진단 자료를 직접 분석해 치료계획을 세웁니다. 치아가 고르게 배열되는 것과 함께 위아래 치아가 기능적으로 잘 맞물리는 상태를 치료 목표로 삼습니다.",
+    ],
+    treatments: [
+      "소아 · 청소년 · 성인 교정",
+      "순측 · 설측 교정",
+      "투명교정",
+      "보철 · 임플란트 치료와 연계한 교정",
+    ],
+    relatedDepartments: ["orthodontics"],
     credentials: [
       "서울대학교 치과대학 졸업",
       "Director of Orthodontic Seminar Group, LPO",
@@ -44,8 +68,20 @@ export const doctors = [
   {
     slug: "jung-hyunhee",
     photo: "/doctors/jung-hyunhee.jpg",
-    role: "치주과 원장",
+    role: "치주치료",
     name: "정현희 원장",
+    tagline: "잇몸질환의 조기 발견과 꾸준한 관리를 중요하게 생각합니다",
+    bio: [
+      "잇몸질환은 불편함이 뚜렷하지 않은 상태에서도 진행될 수 있습니다. 치아와 잇몸의 상태를 검사하고, 필요한 치료와 정기적인 관리를 통해 자연치아를 유지하는 데 도움을 드리고자 합니다.",
+      "치주검사 결과와 증상을 함께 살펴 치료 방향을 정합니다. 임플란트가 필요한 경우에도 다른 치아와 잇몸의 상태를 함께 확인하고, 치료 후에는 상태에 맞는 검진 간격을 안내합니다.",
+    ],
+    treatments: [
+      "치주검사",
+      "잇몸치료",
+      "필요한 경우 치주수술",
+      "치료 후 정기적인 잇몸관리",
+    ],
+    relatedDepartments: ["periodontics"],
     credentials: [
       "서울대학교 치과대학 졸업",
       "SKCD(Society of Korean Clinical Dentist) 창립멤버",

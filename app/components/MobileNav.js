@@ -3,12 +3,12 @@
 import { useState } from "react";
 
 const NAV_ITEMS = [
-  { href: "/#about", label: "병원소개" },
-  { href: "/#values", label: "의료진소개" },
-  { href: "/departments/orthodontics", label: "교정과" },
-  { href: "/departments/prosthodontics", label: "보철·임플란트" },
-  { href: "/departments/periodontics", label: "치주과" },
-  { href: "/#location", label: "오시는길" },
+  { href: "/about", label: "병원소개" },
+  { href: "/doctors", label: "의료진" },
+  { href: "/collaboration", label: "협진 진료" },
+  { href: "/departments", label: "진료과목" },
+  { href: "/guide", label: "진료안내" },
+  { href: "/location", label: "오시는길" },
 ];
 
 export default function MobileNav() {

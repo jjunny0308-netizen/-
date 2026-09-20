@@ -14,7 +14,7 @@ export default function Header() {
               <rect x="8" y="8" width="24" height="24" stroke="var(--ink)" strokeWidth="1.6" />
               <path d="M20 14v12M14 20h12" stroke="var(--ink)" strokeWidth="1.6" />
             </svg>
-            <span>강임강정치과의원</span>
+            <span>강임강정서울치과</span>
           </div>
           <div className="top-actions">
             <MobileNav />
@@ -24,12 +24,12 @@ export default function Header() {
 
       <nav className="main">
         <ul>
-          <li><a href="/#about">병원소개</a></li>
-          <li><a href="/#values">의료진소개</a></li>
-          <li><a href="/departments/orthodontics">교정과</a></li>
-          <li><a href="/departments/prosthodontics">보철·임플란트</a></li>
-          <li><a href="/departments/periodontics">치주과</a></li>
-          <li><a href="/#location">오시는길</a></li>
+          <li><a href="/about">병원소개</a></li>
+          <li><a href="/doctors">의료진</a></li>
+          <li><a href="/collaboration">협진 진료</a></li>
+          <li><a href="/departments">진료과목</a></li>
+          <li><a href="/guide">진료안내</a></li>
+          <li><a href="/location">오시는길</a></li>
         </ul>
       </nav>
     </>

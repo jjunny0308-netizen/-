@@ -13,7 +13,7 @@ export default function Services() {
             <div className="service-card" key={d.slug}>
               <div className="tag">{String(i + 1).padStart(2, "0")}</div>
               <h3>{d.name}</h3>
-              <p>{d.intro}</p>
+              <p>{d.shortIntro}</p>
               <a href={`/departments/${d.slug}`} className="link">자세히 보기</a>
             </div>
           ))}

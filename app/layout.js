@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "OO치과의원",
-  description: "[병원 소개 문구를 여기에 작성하세요]",
+  title: "강임강정서울치과",
+  description: "강임강정서울치과 — 교정 · 임플란트 · 보철 · 치주치료, 전문화된 의료진의 진료",
 };
 
 export default function RootLayout({ children }) {
