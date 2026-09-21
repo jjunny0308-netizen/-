@@ -9,13 +9,13 @@ export default function Header() {
             대표전화
             <strong>02-413-7527</strong>
           </div>
-          <div className="logo-mark">
+          <a href="/" className="logo-mark" aria-label="강임강정서울치과 메인페이지로 이동">
             <svg viewBox="0 0 40 40" fill="none">
               <rect x="8" y="8" width="24" height="24" stroke="var(--ink)" strokeWidth="1.6" />
               <path d="M20 14v12M14 20h12" stroke="var(--ink)" strokeWidth="1.6" />
             </svg>
             <span>강임강정서울치과</span>
-          </div>
+          </a>
           <div className="top-actions">
             <MobileNav />
           </div>

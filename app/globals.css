@@ -157,6 +157,9 @@ section {
   align-items: center;
   justify-content: center;
   gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 .logo-mark svg {
   width: 34px;
@@ -597,6 +600,8 @@ footer.site {
   font-size: 16px;
   color: var(--white);
   font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
 }
 .footer-logo svg {
   width: 22px;

@@ -7,13 +7,13 @@ export default function Footer() {
         <a href="#">이용약관</a>
       </div>
       <div className="wrap footer-bottom">
-        <div className="footer-logo">
+        <a href="/" className="footer-logo" aria-label="강임강정서울치과 메인페이지로 이동">
           <svg viewBox="0 0 40 40" fill="none">
             <rect x="8" y="8" width="24" height="24" stroke="var(--white)" strokeWidth="1.4" />
             <path d="M20 14v12M14 20h12" stroke="var(--white)" strokeWidth="1.4" />
           </svg>
           강임강정서울치과
-        </div>
+        </a>
         <div className="footer-detail">
           대표원장 : 강태현, 임웅택, 정현희 &nbsp;대표전화 : 02-413-7527
           <br />
