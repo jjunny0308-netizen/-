@@ -68,20 +68,22 @@ export const doctors = [
   {
     slug: "jung-hyunhee",
     photo: "/doctors/jung-hyunhee.jpg",
-    role: "치주치료",
+    role: "치주치료 · 보철 및 보존치료",
     name: "정현희 원장",
     tagline: "잇몸질환의 조기 발견과 꾸준한 관리를 중요하게 생각합니다",
     bio: [
       "잇몸질환은 불편함이 뚜렷하지 않은 상태에서도 진행될 수 있습니다. 치아와 잇몸의 상태를 검사하고, 필요한 치료와 정기적인 관리를 통해 자연치아를 유지하는 데 도움을 드리고자 합니다.",
       "치주검사 결과와 증상을 함께 살펴 치료 방향을 정합니다. 임플란트가 필요한 경우에도 다른 치아와 잇몸의 상태를 함께 확인하고, 치료 후에는 상태에 맞는 검진 간격을 안내합니다.",
+      "잇몸치료와 함께 손상된 치아의 보철 및 보존치료도 진행합니다. 자연치아를 유지할 수 있는지 먼저 살피고, 필요한 경우 크라운 등 보철치료로 기능을 회복합니다.",
     ],
     treatments: [
       "치주검사",
       "잇몸치료",
       "필요한 경우 치주수술",
       "치료 후 정기적인 잇몸관리",
+      "보철 및 자연치아 보존치료",
     ],
-    relatedDepartments: ["periodontics"],
+    relatedDepartments: ["periodontics", "prosthodontics"],
     credentials: [
       "서울대학교 치과대학 졸업",
       "SKCD(Society of Korean Clinical Dentist) 창립멤버",
